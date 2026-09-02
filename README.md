@@ -59,28 +59,6 @@ The application includes user authentication, course visualization, progress man
 | Hosting | Firebase Hosting |
 | Language | JavaScript |
 
-## Screenshots
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="./assets/login-preview.png" width="390" alt="Login screen">
-      <br>
-      <sub>Authentication</sub>
-    </td>
-    <td align="center">
-      <img src="./assets/courses-preview.png" width="390" alt="Course catalog">
-      <br>
-      <sub>Course catalog</sub>
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <img src="./assets/certificate-preview.png" width="650" alt="Course certificate">
-  <br>
-  <sub>Completion certificate</sub>
-</p>
 
 ## My contribution
 
@@ -99,7 +77,6 @@ My work included:
 
 ## Project structure
 
-```text
 ipsumtech-learning-platform/
 ├── functions/              # Firebase Cloud Functions
 ├── public/                 # Public static assets
@@ -115,7 +92,7 @@ ipsumtech-learning-platform/
 ├── firebase.json           # Firebase services configuration
 ├── package.json            # Frontend dependencies and scripts
 └── README.md
-````
+
 
 > The exact folder structure may differ. Update this diagram so it matches the repository.
 
@@ -231,15 +208,6 @@ Only include commands that exist in `package.json`.
 * Debug logs must not be committed
 * Administrative credentials must never be included in frontend code
 
-## Future improvements
-
-* [ ] Add automated component tests
-* [ ] Improve accessibility
-* [ ] Add loading and error states
-* [ ] Improve course search and filtering
-* [ ] Add administrative reporting
-* [ ] Document Firebase Security Rules
-* [ ] Add a CI/CD validation workflow
 
 ## What I learned
 
